@@ -43,7 +43,7 @@ resource "aws_s3_bucket_policy" "public" {
       "Action": [
         "s3:GetObject"
       ],
-      "Resource": "arn:aws:s3:::yashdongardiyebucket/*"
+      "Resource": "arn:aws:s3:::yashdongardiyebuckets/*"
     }
   ]
 })
