@@ -10,6 +10,7 @@ resource "aws_s3_object" "object" {
   bucket       = aws_s3_bucket.bucket.id
   key          = var.file
   source       = var.file_source
+  content_type = "text/html"
 }
 
 
