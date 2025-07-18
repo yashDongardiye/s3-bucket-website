@@ -7,4 +7,5 @@ variable "access_key" {
 }
 variable "secret_key" {
     default = "ISXGgSuJEbFaGt51dNEXisl2XiqJttQkQgri5ARb"
+    sensitive = true
 }
